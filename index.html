@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academlo Store</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <header class="contenedor-1">
+    <nav class="navbar">
+      <div class="store">
+       <svg class="nav-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48">
+        <title>Academlo Logo</title>
+        <g>
+          <g>
+            <path
+              d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+            </path>
+          </g>
+        </g>
+    </svg>
+    <p>STORE</p>
+    <!-----menu------->
+        <div class="menu-container hide" id="menu-container" >
+          <div class="menu" id="menu">
+            <div class="menu-close" id="menu-close">
+              <i class='bx bx-x bx-md'></i>
+            </div>
+            <div class="nav-text">
+              <a id="changeOne" class="color-red" href="">HOME</a> 
+              <a id="changeTwo" class="color-red" href="">PRODUCTS</a>
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+    <div class="icons-wrapper">
+      <i class='bx bx-moon bx-sm' id="theme-btn"></i>
+
+      <div class="cart-shop" id="cart-btn">
+          <i class='bx bx-shopping-bag bx-sm' ></i>
+          <span class="cart-counter" id="cart-counter">0</span>
+      </div>
+      <i class='bx bx-menu bx-sm' id="menu-btn" ></i>
+    </div>
+    
+    </nav>
+  </header>
+<!----------carrito------>
+  <div class="cart-container hide" id="cart-container">
+    <div class="cart" id="cart">
+      <div class="cart-close" id="close-cart">
+        <i class='bx bx-x bx-md'></i>
+      </div>
+    </div>
+  </div>
+
+<!---------store inf-------->
+    <section class="container-inf">
+      <div class="imagen-shirt">
+        <img src="/assets/images/home.png" alt="">
+      </div>
+ <div class="text-container" >
+      <article class="store-inf" >
+       
+        <h1>New Sweatshirt <br>
+          COLLECTIONS 2022</h1>
+          <p>Latest arrival of the new Hanes Midweigth Crewneck sweatshirt imported from the 2022 series,with a modern design.</p>
+
+          <span>$14.00</span>
+          <div class="store-add" >
+           
+              <a class="discover" href="">Discover</a>
+          
+              <a class="add-cart" href="">ADD TO CART</a>
+
+          </div>
+        </div>
+      </article>
+      
+    </section>
+    
+    <section class="content-selectors">
+      <ul class="selector-shirts">
+        <li class="btn-productos" data-filter="all">
+          <h3>Show All</h3>
+          <p>show all products</p></li>
+
+        <li class="btn-productos" data-filter=".hoodies">
+          <h3>Hoodies</h3>
+          <p>3 products</p> </li>
+
+        <li class="btn-productos" data-filter=".shirts">
+          <h3>Shirts</h3>
+          <p>4 products</p></li>
+
+        <li class="btn-productos" data-filter=".sweatshirt">
+          <h3>Sweatshirts</h3>
+          <p>4 products</p></li>
+      </section>
+        
+      </ul>
+  
+
+
+
+
+<!---------------productos------------->
+
+<main class="articulos-container" > 
+ 
+    
+        <section>
+          <section  class="shirts-all" id="store-shirts">
+        
+            <article class="element hoodies container-shirts ">
+
+              <img src='assets/images/featured1.png' alt="">
+
+              <div class="precio">
+
+                <h2>14.00 <span> stock: 10</span></h2>
+
+                <div class="plus">
+
+                  <i class="bx bx-plus bx-sm"></i>
+
+                </div>
+
+                <h3> Hoodies  </h3>
+
+              </div>
+            </article>
+          
+          <article class="element shirts container-shirts ">
+
+            <img src='assets/images/featured2.png' alt="">
+
+            <div class="precio">
+
+              <h2>24.00 <span>stock: 15</span></h2>
+
+              <div class="plus">
+
+                <i class="bx bx-plus bx-sm"></i>
+
+              </div>
+
+              <h3>  Shirts  </h3>
+
+            </div>
+          </article>
+
+          <article class="element sweatshirt container-shirts ">
+
+            <img src='assets/images/featured3.png' alt="">
+
+            <div class="precio">
+
+              <h2>24.00 <span>stock: 20</span></h2>
+
+              <div class="plus">
+
+                <i class="bx bx-plus bx-sm"></i>
+
+              </div>
+
+              <h3>  Sweatshirts  </h3>
+
+            </div>
+          </article>
+
+
+          </section>
+        </section>
+
+      </main>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    
+
+  <footer>
+  <article class="informacion"> 
+      <h3>Our informacion</h3>
+      <ol>
+        <li>Toluca - Mexico</li>
+      </ol>
+  </article>
+  <article class="informacion"> 
+      <h3>About Us</h3>
+      <ol>
+        <li>Support Center</li>
+        <li>Customer Support</li>
+        <li>About Us</li>
+       <li>Copy Right</li> 
+      </ol>
+  </article>
+  <article class="informacion"> 
+    <h3>Product</h3>
+    <ol>
+      <li>Hoodies</li>
+      <li>Shirts</li>
+      <li>Sweatshirt</li>
+    </ol>
+  </article>
+  <article class="informacion"> 
+    <h3>social</h3>
+    <div class="social-inf">
+    <ul>
+      <li><i class='bx bxl-facebook bx-sm'></i></li>
+      <li><i class='bx bxl-twitter bx-sm' ></i></li>
+      <li><i class='bx bxl-instagram bx-sm' ></i></li>
+    </ul>
+    </div>
+    
+  </article>
+
+  </footer>
+  <article class="academlo">
+    <div class="caja-Ac">
+       <p>@ ACADEMLO. All rigths reserved</p>
+    </div>
+  </article>
+
+    <!--========== Logo Academlo con contorno ==========-->
+    <!-- 
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48">
+        <title>Academlo Logo</title>
+        <g>
+            <g>
+                <path
+                d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z">
+                </path>
+                <path
+                d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                </path>
+            </g>
+        </g>
+    </svg>
+    -->
+
+    <!--=========== Logo Academlo sin contorno ==========-->
+    <!--
+   
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js" integrity="sha512-nKZDK+ztK6Ug+2B6DZx+QtgeyAmo9YThZob8O3xgjqhw2IVQdAITFasl/jqbyDwclMkLXFOZRiytnUrXk/PM6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     
+    <script>
+     
+        mixitup(".shirts-all", {
+            selectors:{
+              target:'.element'
+            },
+            animation: {
+              duration:300
+            }
+        }).filter('all')
+      </script>
+    
+    
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/productos2.js"></script>
+  </body>
+</html>
